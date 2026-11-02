@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Chromora AI – AI Image Colorization & Sketch Generation
 
 A beginner-friendly web application that converts grayscale images into color images
@@ -253,7 +252,4 @@ colour bleeding compared with the old model.
 
 The result is intended to look like a handmade graphite sketch rather than a
 simple inverted-image filter.
-=======
-# Chromora-AI
-AI-powered image colorization and sketch generation web application using Python, Flask and OpenCV.
->>>>>>> 9ea3911a8b471534391e64eacb8d27aec59fc141
+
