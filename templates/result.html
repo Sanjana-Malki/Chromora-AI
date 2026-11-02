@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}Chromora AI - Your Colorized Image{% endblock %}
+{% block content %}
+<main class="container">
+    <section class="hero">
+        <h1>Your Colorized Image</h1>
+        <p class="tagline">Bring grayscale memories to life.</p>
+        <p class="subtitle">
+            The original image and the AI-generated color version.
+        </p>
+    </section>
+
+    <section class="card result-card">
+        <div class="image-grid">
+            <div class="image-box">
+                <h3>Original Image</h3>
+                <div class="image-frame">
+                    <img src="{{ original_image }}" alt="Original image">
+                </div>
+                <a class="primary-button btn-card" href="{{ url_for('index') }}">Colorize Another Image</a>
+            </div>
+            <div class="image-box">
+                <h3>Colorized Image</h3>
+                <div class="image-frame">
+                    <img src="{{ colorized_image }}" alt="Colorized image">
+                </div>
+                <a class="primary-button btn-card" href="{{ url_for('download', filename=colorized_filename) }}">Download Colorized Image</a>
+            </div>
+            <div class="image-box">
+                <h3>Pencil Sketch</h3>
+                <div class="image-frame">
+                    <img src="{{ sketch_image }}" alt="Pencil sketch image">
+                </div>
+                <a class="primary-button btn-card" href="{{ url_for('download', filename=sketch_filename) }}">Download Pencil Sketch</a>
+            </div>
+        </div>
+
+    </section>
+</main>
+{% endblock %}

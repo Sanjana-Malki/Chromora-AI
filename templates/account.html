@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}My Account - Chromora AI{% endblock %}
+{% block content %}
+<main class="container auth-container">
+    <section class="card auth-card">
+        <h1>My Account</h1>
+        <p class="subtitle">Your Chromora AI profile.</p>
+
+        <div class="account-details">
+            <p><strong>Name:</strong> {{ user['full_name'] }}</p>
+            <p><strong>Email:</strong> {{ user['email'] }}</p>
+            <p><strong>Member since:</strong> {{ user['created_at'] }}</p>
+        </div>
+
+        <div class="actions">
+            <a class="primary-button" href="{{ url_for('index') }}">Colorize an Image</a>
+            <a class="primary-button" href="{{ url_for('logout') }}">Logout</a>
+        </div>
+    </section>
+</main>
+{% endblock %}
+""" 

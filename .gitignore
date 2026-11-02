@@ -1,0 +1,43 @@
+﻿# Virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local database
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+server.err
+server.log
+
+# Large AI model weights
+models/*.caffemodel
+models/*.onnx
+
+# Generated uploads and results
+static/uploads/*
+static/results/*
+!static/uploads/.gitkeep
+!static/results/.gitkeep
+
+# Unrelated notebook
+Untitled-1.ipynb
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
