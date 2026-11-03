@@ -269,3 +269,6 @@ simple inverted-image filter.
 ### 4. Sign Up Page
 ![Sign Up](Screenshorts/Sign%20Up.png)
 
+### Account Page
+![Account Page](Screenshorts/Account%20Page.png)
+
