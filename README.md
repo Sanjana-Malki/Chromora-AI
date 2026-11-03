@@ -253,3 +253,19 @@ colour bleeding compared with the old model.
 The result is intended to look like a handmade graphite sketch rather than a
 simple inverted-image filter.
 
+---
+
+## Application Screenshots
+
+### 1. Home Page
+![Chromora AI Home Page](Screenshorts/Home%20Page.png)
+
+### 2. Image Colorization & Pencil Sketch
+![Colorization and Sketch Result](Screenshorts/Colored%20%26%20Sketch%20Image.png)
+
+### 3. Sign In Page
+![Sign In](Screenshorts/Sign%20In.png)
+
+### 4. Sign Up Page
+![Sign Up](Screenshorts/Sign%20Up.png)
+
